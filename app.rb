@@ -3,24 +3,24 @@ require_relative 'config/environment'
 class App < Sinatra::Base
   # Write your code here!
 get '/reversename/:name' do
-  
+
 end
 
-get '/square/:number' do 
+get '/square/:number' do
 end
 
 get '/say/:number/phrase' do
-  
+
 end
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do
-  
+
 end
 
 get '/:operation/:number1/:number2' do
-  @result =@sum params [:number1].to_i + params [:number2].to_i
-  "#{result}"
-  
+  @sum =@params [:number1].to_i + @params [:number2].to_i
+  "#{sum}"
+
 end
 
 end

@@ -44,9 +44,5 @@ get "/:operation/:number1/:number2" do
    when "divide"
      @result=@operand1/@operand2
  end
-
- "#{@result}"
-
-end
-
+"#{@result}"
 end

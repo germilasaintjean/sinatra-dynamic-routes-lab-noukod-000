@@ -8,6 +8,7 @@ get '/reversename/:name' do
 end
 
 get '/square/:number' do
+  @square = @params[:number].to_i*@params[:number].to.i
 end
 
 get '/say/:number/phrase' do

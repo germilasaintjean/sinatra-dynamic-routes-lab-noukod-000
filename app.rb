@@ -9,6 +9,7 @@ end
 
 get '/square/:number' do
   @square = @params[:number].to_i*@params[:number].to.i
+  "#{square}"
 end
 
 get '/say/:number/phrase' do

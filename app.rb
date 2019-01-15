@@ -13,14 +13,13 @@ get '/square/:number' do
 end
 
 get '/say/:number/:phrase' do
-
+ n.times do
+    @say=@params[:number].to_i@params[:phrase]
+  end
 end
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do
     @say=@params[:word1].@params[:word2].@params[:word3].@params[:word4].@prams[:word5]
-    n.times do
-      "#{say}"
-    end
 end
 
 end

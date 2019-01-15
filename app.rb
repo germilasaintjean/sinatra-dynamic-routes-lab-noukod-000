@@ -12,7 +12,7 @@ get '/square/:number' do
   "#{square}"
 end
 
-get '/say/:number/phrase' do
+get '/say/:number/:phrase' do
 
 end
 

@@ -46,3 +46,4 @@ get "/:operation/:number1/:number2" do
  end
 "#{@result}"
 end
+end
